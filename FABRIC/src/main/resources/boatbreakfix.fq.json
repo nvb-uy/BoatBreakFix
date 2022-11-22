@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "elocindev.boatbreakfix.fabric_quilt.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BoatEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

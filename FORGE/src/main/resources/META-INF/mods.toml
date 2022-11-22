@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[37,)" 
+license="AGNYA License"
+
+[[mods]] 
+modId="boatbreakfix" 
+version="${file.jarVersion}" 
+displayName="Boat Break Fix" 
+logoFile="bbf.png" 
+credits="https://github.com/nvb-uy" 
+authors="ElocinDev" 
+description='''
+This mod fixes the bug where boats break when you fall from specific distances.
+Fixing what mojang should've fixed 6 years ago.
+'''
+[[dependencies.boatbreakfix]] #optional
+    modId="forge" 
+    mandatory=true 
+    versionRange="[37,)" 
+    ordering="NONE"
+    side="BOTH"

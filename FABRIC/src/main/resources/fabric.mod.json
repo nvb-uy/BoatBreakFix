@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "boatbreakfix",
+  "version": "1.0.1",
+
+  "name": "Boat Break Fix",
+  "description": "Prevents boats from breaking upon falling. Fixing what mojang should've fixed 6 years ago.",
+  "authors": [
+    "ElocinDev"
+  ],
+  "contact": {
+    "homepage": "https://curseforge.com/members/elocindev/projects",
+    "sources": "https://github.com/nvb-uy/boatbreakfix"
+  },
+
+  "license": "AGNYA License",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "elocindev.boatbreakfix.fabric_quilt.BoatBreakFix"
+    ]
+  },
+  "mixins": [
+    "boatbreakfix.fq.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "java": ">=17"
+  }
+}

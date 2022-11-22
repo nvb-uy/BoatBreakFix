@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "elocindev.boatbreakfix.forge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "boatbreakfix.refmap.json",
+  "mixins": [
+    "BoatMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}
